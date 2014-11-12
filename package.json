@@ -1,0 +1,18 @@
+{
+  "name": "editorconfig-presentation",
+  "version": "0.0.0",
+  "description": "EditConfig presentation",
+  "main": "app.js",
+  "dependencies": {
+    "node-static": "~0.6.6",
+    "socket.io": "~0.9.13"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/groupsky/editorconfig-presentation.git"
+  },
+  "keywords": ["node", "reveal.js", "socket.io", "presentation"],
+  "author": "Geno Roupsky",
+  "license": "MIT"
+}

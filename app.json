@@ -1,0 +1,6 @@
+{
+  "name": "EditorConfig Presentation",
+  "description": "EditorConfig Presentation",
+  "repository": "https://github.com/groupsky/editorconfig-presentation",
+  "keywords": ["node", "reveal.js", "socket.io", "presentation"]
+}
