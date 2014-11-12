@@ -13,6 +13,7 @@ var server = http.createServer(function (req, res) {
 	console.log('pathname: '+pathname);
 
 	req.addListener('end', function () {
+		console.log('serving');
 		fileServer.serve(req, res);
 	}).resume();
 
@@ -49,4 +50,3 @@ io.sockets.on('connection', function(socket){
 	});
 
 });
- 
