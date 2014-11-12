@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "EditConfig presentation",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "node-static": "~0.6.6",
     "socket.io": "~0.9.13"
